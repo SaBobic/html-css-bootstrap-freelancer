@@ -1,16 +1,18 @@
-/* * Generics */
-
-header{
-    background-color: #2C3E50;
-    height: 80px;
-}
-
 /* * Header */
 
-#hamburger-menu::before{
-    content: '\F479';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.main-header, #bottom-footer{
+    background-color: #2C3E50;
+}
+
+#start, #about{
+    background-color: #1ABC9C;
+}
+
+.card{
+    height: 200px;
+    background-color: #BA4B63;
+}
+
+#upper-footer{
+    background-color: #3A546D;
 }
