@@ -8,11 +8,46 @@
     background-color: #1ABC9C;
 }
 
-.card{
-    height: 200px;
-    background-color: #BA4B63;
-}
-
 #upper-footer{
     background-color: #3A546D;
+}
+
+#start img{
+    width: 200px;
+}
+
+#portfolio .row img{
+    width: 100%;
+}
+
+.star-divider > .bi-star-fill{
+    font-size: 1.625rem;
+    vertical-align: middle;
+}
+
+.star-divider::before, .star-divider::after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    border-radius: 20px;
+    max-width: 100px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.star-divider._color-black > .bi-star-fill{
+    color: #2C3E50;
+}
+
+.star-divider._color-black::before, .star-divider._color-black::after{
+    background-color: #2C3E50;
+}
+
+._color-black{
+    color: #2C3E50;
+}
+
+.navbar-toggler{
+    border-color: #fff;
 }
