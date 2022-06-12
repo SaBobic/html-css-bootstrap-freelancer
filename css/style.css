@@ -1,23 +1,7 @@
-/* * Header */
+/* Utilities */
 
-.main-header, #bottom-footer{
-    background-color: #2C3E50;
-}
-
-#start, #about{
-    background-color: #1ABC9C;
-}
-
-#upper-footer{
-    background-color: #3A546D;
-}
-
-#start img{
-    width: 200px;
-}
-
-#portfolio .row img{
-    width: 100%;
+._color-black{
+    color: #2C3E50;
 }
 
 .star-divider > .bi-star-fill{
@@ -44,13 +28,33 @@
     background-color: #2C3E50;
 }
 
-._color-black{
-    color: #2C3E50;
+/* * Header */
+
+.main-header, .main-footer{
+    background-color: #2C3E50;
 }
 
 .navbar-toggler{
     border-color: #fff;
 }
+
+/* * Start section */
+
+#start, #about, #send-button{
+    background-color: #1ABC9C;
+}
+
+#start img{
+    width: 200px;
+}
+
+/* * Portfolio section */
+
+#portfolio .row img{
+    width: 100%;
+}
+
+/* * Contact me section */
 
 #contact-me textarea{
     height: 130px;
@@ -60,4 +64,20 @@
     border: 0;
     border-bottom: 1px solid #ced4da;
     border-radius: 0;
+}
+
+/* * Footer */
+
+.main-footer span{
+    display: block;
+}
+
+.main-footer a{
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#bottom-footer{
+    background-color: #3A546D;
+    font-size: 0.75rem;
 }
